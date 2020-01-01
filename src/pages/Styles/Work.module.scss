@@ -1,0 +1,122 @@
+.container {
+  background-color: #33322d;
+  padding: 0px !important;
+}
+
+.headingContainer {
+  text-align: center;
+}
+.heading {
+  color: white;
+  text-align: center;
+  font-size: 2.5vmax;
+  padding-top: 11px;
+  border-bottom: 2px solid hsl(165, 100%, 41%);
+  display: inline-block;
+  font-weight: 540;
+}
+
+.sliderContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 90px;
+  padding-top: 5px;
+}
+
+.series {
+  font-size: 26px;
+  color: white;
+  // float: right;
+  width: 70px;
+  height: 70px;
+  background-color: hsl(165, 100%, 41%);
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph {
+  margin-top: 30px;
+  margin-left: 50px;
+  color: white;
+  font-size: 23px;
+}
+
+.locationContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.input {
+  color: #017969;
+  width: 200px;
+  background-color: white;
+  padding: 5px;
+  margin: 0px;
+}
+table {
+  border-collapse: separate !important;
+  border-spacing: 12px !important;
+}
+table tr td {
+  align-items: center;
+  font-size: 1vw
+}
+table tr {
+  padding: 20px !important;
+  border: 2px solid;
+}
+@media (max-width: 768px) {
+  table tr td {
+    font-size: 3vw
+  }
+  table {
+    border-spacing: 8px !important;
+  }
+  .input{
+    width: 100px
+  }
+}
+
+.numbering{
+  color: hsl(165, 100%, 41%);
+  font-weight: bold;
+}
+.circle {
+  border: 2px solid;
+  border-color: hsl(165, 100%, 41%);
+  padding: 6px;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0px;
+}
+.block_content{
+  // font-weight: bold;
+  color: rgb(54, 139, 126);
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px
+}
+
+.content_list p{
+font-size: 12px;
+margin: 0px;
+font-weight: bold
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .sliderContainer {
+    padding: 10px;
+    justify-content: center;
+  }
+  .sliderContainer p {
+    text-align: center;
+    margin: 30px auto;
+  }
+}
