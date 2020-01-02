@@ -56,24 +56,29 @@
   color: #017969;
   width: 200px;
   background-color: white;
-  padding: 5px;
-  margin: 0px;
+  padding: 7px;
+  margin: 0px !important;
 }
 table {
   border-collapse: separate !important;
   border-spacing: 12px !important;
 }
 table tr td {
-  align-items: center;
-  font-size: 1vw
+  // align-items: center;
+  // text-align: left;
+  font-size: 1vw;
+  padding-right: 5px;
+  padding-left: 5px;
+
+
 }
 table tr {
-  padding: 20px !important;
+  // padding: 20px !important;
   border: 2px solid;
 }
 @media (max-width: 768px) {
   table tr td {
-    font-size: 3vw
+    font-size: 3vw;
   }
   table {
     border-spacing: 8px !important;
